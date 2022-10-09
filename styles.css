@@ -21,6 +21,7 @@ body {
     background-color: #f6f6f9;
     user-select: none;
     overflow-x: hidden;
+    color: #363949;
 }
 .container {
     display: grid;
@@ -182,3 +183,71 @@ aside .sidebar .message-count {
 
 
 /* ----------------------------- MAIN -------------------*/
+
+main {
+    margin-top: 1.4rem;
+
+}
+main .date {
+    display: inline-block;
+    background-color: rgb(228, 224, 224);
+    border-radius: 10px;
+    margin-top: 1rem;
+    padding: 0.5rem 1.6rem;
+}
+main .date input[type="date"] {
+    background: transparent;
+    color: rgba(8, 93, 221, 0.973); 
+}
+
+main .insights {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.6rem;
+}
+main .insights > div {
+    background-color: #fff;
+    padding:1.2rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    box-shadow: 0.2rem 3rem rgba(132,139,200,0.18);
+    transition: all 300ms ease;
+}
+main .insights > div:hover {
+    box-shadow: none
+}
+main .insights > div span {
+    background-color: rgb(42, 110, 189);
+    padding: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 2rem;
+    
+}
+main .insights > div.expenses span {
+    background-color: rgb(236, 75, 75)
+}
+main .insights > div.income span {
+    background-color: rgba(64, 180, 79, 0.959)
+}
+main .insights > div .middle {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .insights h3 {
+    margin: 1rem 0 0.6rem;
+    font-size: 1rem;
+}
+main .insights .progress {
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+main .insights svg {
+    width: 7rem;
+    height: 7rem;
+}
+
