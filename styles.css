@@ -327,8 +327,50 @@ main .recent-orders a {
     margin: 1rem auto;
     color: rgba(47, 121, 231, 0.533); 
 }
+.right {
+    margin-top: 1.4rem;
 
+}
+.right .top {
+    display:flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+.right .top button {
+    display: none;
 
+}
 
+.right .theme-toggler {
+    background-color: rgb(185, 181, 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: 2rem;
+}
+.right .theme-toggler span {
+    font-size: 1.2rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right .theme-toggler span.active {
+    background-color: rgb(2, 141, 165);
+    color:white;
+    border-radius: 0.4rem;
+}
+.right .top .profile {
+    display:flex;
+    gap: 2rem;
+    text-align: right;
+}
+
+/* ----------------RECENTE UPDATE */
 
 
