@@ -21,14 +21,15 @@
     <title>Painel admin</title>
   </head>
   <body>
-     <!-- sidebar Start -->
+    <!-- sidebar Start -->
     <div class="container">
       <aside>
         <div class="top">
           <div class="logo">
             <img src="./img/perfil01.png" alt="logo" />
             <h2 class="text-muted">
-              Code<span class="next">Next</span>
+              Code
+              <span class="next">Next</span>
             </h2>
           </div>
           <div class="close" id="close-btn">
@@ -79,8 +80,73 @@
           </a>
         </div>
       </aside>
-        <!-- main Start -->
+      <!-- main Start -->
+      <main>
+        <h1>Dasboard</h1>
 
+        <div class="date">
+          <input type="date" />
+        </div>
+        <div class="insights">
+          <div class="sales">
+            <span class="material-symbols-sharp">analytics</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Sales</h3>
+                <h1>$39,365</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>70%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- Fim sales  -->
+          <div class="expenses">
+            <span class="material-symbols-sharp">bar_chart</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Expenses</h3>
+                <h1>$20,061</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>57%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- Fim Expenses  -->
+          <div class="income">
+            <span class="material-symbols-sharp">stacked_line_chart</span>
+            <div class="middle">
+              <div class="left">
+                <h3>Total Income</h3>
+                <h1>$10,025</h1>
+              </div>
+              <div class="progress">
+                <svg>
+                  <circle cx="38" cy="38" r="36"></circle>
+                </svg>
+                <div class="number">
+                  <p>30%</p>
+                </div>
+              </div>
+            </div>
+            <small class="text-muted">Last 24 Hours</small>
+          </div>
+          <!-- Fim sales  -->
+        </div>
+      </main>
     </div>
   </body>
 </html>
