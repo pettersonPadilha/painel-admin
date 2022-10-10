@@ -520,13 +520,19 @@ main .recent-orders a {
    }
    aside {
     position: fixed;
-    left: 0;
+    left: -100%;
     background-color: white;
     width:18rem;
     z-index: 3;
     height: 100vh;
     padding-right: 1.8rem;
     display: none;
+    animation: showMenu 400ms ease forwards;
+   }
+   @keyframes showMenu {
+        to{
+            left: 0;
+        }
    }
    aside .logo {
     margin-left: 1rem;
