@@ -13,11 +13,6 @@
 
 
 
-## Licença
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-
 ## Funcionalidades
 - Modo tela cheia
 - Multiplataforma Desktop/Tablet/Mobile
@@ -31,4 +26,9 @@
 ## Autores
 
 - [@Petterson Padilha](https://github.com/pettersonPadilha)
+
+
+## Licença
+
+[MIT](https://choosealicense.com/licenses/mit/)
 
